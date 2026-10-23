@@ -37,7 +37,7 @@ I comandi sono gli stessi in zsh e in PowerShell.
 ## Step 0 — Stato del repo
 
 **Remoto:** se `git remote -v` è vuoto, il repo GitHub non esiste ancora: fermati e chiedi al DM
-se crearlo (`gh repo create FabioC-88/spindrift-dm --public --source . --push`). Deve essere
+se crearlo (`gh repo create FabioC-88/dnd-spindrift --public --source . --push`). Deve essere
 pubblico, perché Foundry scarica il manifest senza autenticazione.
 
 ```
@@ -123,7 +123,7 @@ gh release view vX.Y.Z --json assets --jq '.assets[].name'
 git pull --rebase origin main
 ```
 
-- Gli asset devono essere `spindrift-dm-vX.Y.Z.zip` e `module.json`.
+- Gli asset devono essere `dnd-spindrift-vX.Y.Z.zip` e `module.json`.
 - Il pull porta in locale il commit `chore(release): vX.Y.Z` della CI, così il prossimo push non
   viene rifiutato.
 
@@ -135,8 +135,8 @@ git pull --rebase origin main
 ✅ Release completata
 
   Tag:      vX.Y.Z
-  Release:  https://github.com/FabioC-88/spindrift-dm/releases/tag/vX.Y.Z
-  Asset:    spindrift-dm-vX.Y.Z.zip  +  module.json
+  Release:  https://github.com/FabioC-88/dnd-spindrift/releases/tag/vX.Y.Z
+  Asset:    dnd-spindrift-vX.Y.Z.zip  +  module.json
 
 Foundry trova l'aggiornamento tramite il manifest releases/latest/download/module.json.
 ```

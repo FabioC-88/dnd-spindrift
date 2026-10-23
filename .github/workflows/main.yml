@@ -29,10 +29,10 @@ jobs:
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           TAG="${GITHUB_REF_NAME}"
-          ZIP_NAME="spindrift-dm-${TAG}.zip"
+          ZIP_NAME="dnd-spindrift-${TAG}.zip"
 
           jq --arg v "$VERSION" \
-             --arg url "https://github.com/FabioC-88/spindrift-dm/releases/download/${TAG}/${ZIP_NAME}" \
+             --arg url "https://github.com/FabioC-88/dnd-spindrift/releases/download/${TAG}/${ZIP_NAME}" \
              '.version = $v | .download = $url' module.json > module.json.tmp && mv module.json.tmp module.json
 
       - name: Build Foundry compendium packs
@@ -55,7 +55,7 @@ jobs:
 
       - name: Create Zip Archive
         run: |
-          ZIP_NAME="spindrift-dm-${GITHUB_REF_NAME}.zip"
+          ZIP_NAME="dnd-spindrift-${GITHUB_REF_NAME}.zip"
           zip -r "$ZIP_NAME" module.json packs
 
       - name: Create GitHub Release
@@ -63,6 +63,6 @@ jobs:
         with:
           files: |
             module.json
-            spindrift-dm-${{ github.ref_name }}.zip
+            dnd-spindrift-${{ github.ref_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

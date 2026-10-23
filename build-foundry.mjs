@@ -27,7 +27,7 @@ import { execSync } from 'node:child_process';
 import { marked } from 'marked';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
-const MODULE_ID = 'spindrift-dm';
+const MODULE_ID = 'dnd-spindrift';
 
 // ── Utility ────────────────────────────────────────────────────────────────
 

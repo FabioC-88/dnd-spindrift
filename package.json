@@ -1,5 +1,5 @@
 {
-  "name": "spindrift-dm-builder",
+  "name": "dnd-spindrift-builder",
   "version": "1.0.0",
   "description": "Build script per generare Compendium Packs Foundry VTT da file Markdown",
   "type": "module",

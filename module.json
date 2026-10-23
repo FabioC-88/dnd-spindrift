@@ -1,5 +1,5 @@
 {
-  "id": "spindrift-dm",
+  "id": "dnd-spindrift",
   "title": "Lo Stretto in Fiamme — DM Notes",
   "description": "Note DM, scheda da tavolo e background personaggi per la campagna pirata Lo Stretto in Fiamme (Greyhawk 576 CY).",
   "version": "0.1.0",
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "url": "https://github.com/FabioC-88/spindrift-dm",
-  "manifest": "https://github.com/FabioC-88/spindrift-dm/releases/latest/download/module.json",
-  "download": "https://github.com/FabioC-88/spindrift-dm/releases/download/v0.1.0/spindrift-dm-v0.1.0.zip"
+  "url": "https://github.com/FabioC-88/dnd-spindrift",
+  "manifest": "https://github.com/FabioC-88/dnd-spindrift/releases/latest/download/module.json",
+  "download": "https://github.com/FabioC-88/dnd-spindrift/releases/download/v0.1.0/dnd-spindrift-v0.1.0.zip"
 }

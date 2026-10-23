@@ -1,6 +1,6 @@
 # Lo Stretto in Fiamme
 
-Campagna pirata per D&D 2024, livelli 5→10, Greyhawk 576 CY. Fa da ponte verso *Vecna: Eve of Ruin*. L'utente è il DM. Il repo è il toolkit del DM e il sorgente del modulo Foundry `spindrift-dm`, con la struttura del repo di *Shadow of the Dragon Queen*.
+Campagna pirata per D&D 2024, livelli 5→10, Greyhawk 576 CY. Fa da ponte verso *Vecna: Eve of Ruin*. L'utente è il DM. Il repo è il toolkit del DM e il sorgente del modulo Foundry `dnd-spindrift`, con la struttura del repo di *Shadow of the Dragon Queen*.
 
 ## Ruolo
 
