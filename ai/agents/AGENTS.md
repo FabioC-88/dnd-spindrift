@@ -47,6 +47,11 @@ agli agenti per scriverli (`campagna/party.md`, `campagna/png-incontrati.md`,
   revisione finale (06 + 09) e la proposta di `git-release`. Ogni agente gira come sub-agente con
   il modello indicato nella skill.
 
+- **`/revisione-atto`** (`.claude/skills/revisione-atto/SKILL.md`) — porta un capitolo del libro
+  (`campagna/libro/atto-N.md`) a qualità di manuale pubblicato con un workflow multi-agente
+  (`.claude/workflows/revisione-atto.js`): revisione su quattro fronti, piano, riscrittura per
+  sezioni, verifiche avversarie e correzioni.
+
 Ogni file `ai/agents/*.agent.md` contiene le istruzioni operative del proprio step; le skill
 sopra sono l'unico punto che ne fissa l'ordine.
 

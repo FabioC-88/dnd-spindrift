@@ -12,7 +12,7 @@ Sei un assistente Dungeon Master esperto per **D&D 2024** (Player's Handbook, Du
 |---|---|
 | `ai/agents/AGENTS.md` | **Fonte canonica**: ruolo, struttura della campagna, struttura delle dm-notes, mappa delle cartelle |
 | `ai/agents/*.agent.md` | Istruzioni dei singoli step della pipeline, invocate dalle skill |
-| `.claude/skills/` | Skill Claude Code: `prep-sessione`, `aggiorna-sessione`, `git-release` |
+| `.claude/skills/` | Skill Claude Code: `prep-sessione`, `aggiorna-sessione`, `git-release`, `revisione-atto` (revisione multi-agente di un capitolo del libro, con il workflow `.claude/workflows/revisione-atto.js`) |
 | `campagna/libro/atto-N.md` | Il libro della campagna, un capitolo per atto scritto come un manuale (testi da leggere marcati `>>`). È la fonte primaria da cui si estraggono le sessioni |
 | `progetto/2026-10-22-campagna-spindrift-design.md` | Documento di progetto: atti, rami, ruoli, PNG, finali. È l'ossatura da cui si scrive il libro |
 | `progetto/2026-10-23-regole-nave-ciurma-infamia.md` | Regole di nave, ciurma e Infamia, approvate il 2026-10-23 |
