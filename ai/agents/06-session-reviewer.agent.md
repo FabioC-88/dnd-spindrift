@@ -39,6 +39,7 @@ campagna/party.md                                ← PG, ruoli, livello
 campagna/png-incontrati.md                       ← atteggiamenti dei PNG
 campagna/stato-nave.md                           ← numeri della nave e della ciurma, promemoria
 campagna/scontri/00-framework.md                 ← budget e tattiche
+campagna/libro/atto-N.md                         ← il capitolo dell'atto: fonte dei testi da leggere e del ramo
 progetto/2026-10-22-campagna-spindrift-design.md ← il ramo, le chiavi, le preclusioni, i segnali
 progetto/2026-10-23-regole-nave-ciurma-infamia.md
 fonti/Ghosts of Saltmarsh.md                     ← solo per i testi da leggere ripresi da GoS
@@ -90,7 +91,7 @@ Le `[NOTA DM — riservata]` che restano vanno accorciate a poche righe operativ
       coincidono con `stato-nave.md`? I promemoria che scattano stasera sono in scena?
 - [ ] **Oggetti e chiavi:** quelli ottenuti finora sono considerati?
 
-#### 2C — Coerenza con il progetto
+#### 2C — Coerenza con il libro e con il progetto
 
 Per il ramo (o il prologo, l'orologio, la fine dell'atto) della serata:
 
@@ -103,8 +104,10 @@ Per il ramo (o il prologo, l'orologio, la fine dell'atto) della serata:
 - [ ] **Segnali:** c'è un segnale per ogni ramo ancora aperto dell'atto, fedele al progetto?
 - [ ] **Ruolo:** il PG che possiede il ramo ha il gradino della sua scala (§5)?
 - [ ] **Segreti:** il segreto del Sussurratore e quelli dei ruoli restano nelle note riservate.
-- [ ] **Testi ripresi da GoS:** tutte le informazioni chiave dell'originale ci sono (creature,
-      oggetti, direzioni, azioni in corso)? Se ne manca una, aggiungila nel registro esistente.
+- [ ] **Fedeltà al libro:** ogni testo da leggere ripreso da un `>>` del libro (o da GoS) ha
+      tutte le informazioni chiave dell'originale (creature, oggetti, direzioni, azioni in corso)?
+      Se ne manca una, aggiungila nel registro esistente. Le varianti scelte (chiavi, preclusioni)
+      sono quelle giuste per lo stato reale?
       Un blockquote `*[aggiunta atmosferica]*` separato va fuso nel riquadro o eliminato.
 
 #### 2C-bis — Terminologia

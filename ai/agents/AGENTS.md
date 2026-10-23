@@ -16,11 +16,14 @@ distingui sempre tra **cosa sa il party** e **[NOTA DM — riservata]**.
 
 > **Contesto campagna corrente:** leggi `campagna/contesto.md` per atto, ramo, chiavi, livello,
 > party e prossima serata.
-> **Fonte primaria:** questa campagna non ha un manuale. La fonte è il documento di progetto
-> `progetto/2026-10-22-campagna-spindrift-design.md` (atti, rami, ruoli, PNG, finali), con le
-> regole `progetto/2026-10-23-regole-nave-ciurma-infamia.md`. *Ghosts of Saltmarsh*
-> (`fonti/Ghosts of Saltmarsh.md`) e le schede delle navi in `fonti/` sono materiale da
-> riusare e la base delle regole ufficiali.
+> **Fonte primaria:** il **libro della campagna**, `campagna/libro/atto-N.md`, un capitolo per
+> atto scritto come un manuale ufficiale: retroscena, scene, testi da leggere (`>>`), PNG,
+> incontri, ricompense. Le sessioni si estraggono da lì, come in SotDQ dal manuale. Il libro
+> svolge il documento di progetto `progetto/2026-10-22-campagna-spindrift-design.md` (l'ossatura:
+> atti, rami, ruoli, finali) con le regole `progetto/2026-10-23-regole-nave-ciurma-infamia.md`.
+> *Ghosts of Saltmarsh* (`fonti/Ghosts of Saltmarsh.md`) e le schede delle navi in `fonti/` sono
+> materiale da riusare e la base delle regole ufficiali. Un atto che non ha ancora il suo
+> capitolo si scrive prima di prepararne le sessioni.
 
 ---
 
@@ -35,7 +38,7 @@ agli agenti per scriverli (`campagna/party.md`, `campagna/png-incontrati.md`,
 `campagna/contesto.md`, `campagna/stato-nave.md`), nient'altro.
 
 - **`/prep-sessione`** (`.claude/skills/prep-sessione/SKILL.md`) — prepara una sessione nuova
-  invocando in ordine `01-session-planner` → `02-session-writer` → `03-session-pc-integrator`
+  invocando in ordine `01-session-planner` (estrae la serata dal libro) → `02-session-writer` → `03-session-pc-integrator`
   → revisione finale (`06-session-reviewer` + `09-read-aloud-reviewer` in un solo sub-agente).
 - **`/aggiorna-sessione`** (`.claude/skills/aggiorna-sessione/SKILL.md`) — dopo che una sessione è
   stata giocata: `00-recap-updater` annota le dm-notes giocate, poi in parallelo
@@ -130,6 +133,8 @@ campagna/
   stato-nave.md            ← contabilità di nave, ciurma, bottino, Infamia (la tiene l'Agente 7)
   scheda-tavolo.md         ← scheda di una pagina per il tavolo (su Foundry)
   glossario.md             ← terminologia italiana EN→IT (fonte unica per tutti gli agenti)
+  libro/
+    atto-N.md                ← fonte primaria: il capitolo dell'atto, da cui si estraggono le sessioni
   scontri/
     00-framework.md          ← taratura degli scontri (budget in XP, ondate, tattiche)
     aggiornamenti-schede.md  ← differenze dalle schede ufficiali, creature (inv.)

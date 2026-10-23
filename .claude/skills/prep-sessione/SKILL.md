@@ -58,13 +58,15 @@ completamento prima di lanciare lo step dopo.
 
 Tra uno step e il successivo, mostra: `✅ Step N completato → avvio Step N+1...`
 
-### Step 1 — Scaletta della serata · `opus`
+### Step 1 — Estrazione della serata dal libro · `sonnet`
 Sub-agente su `ai/agents/01-session-planner.agent.md`.
 
-Input: `campagna/contesto.md`, ultima sessione, `campagna/stato-nave.md`, `campagna/party.md`,
-`progetto/`, `fonti/Ghosts of Saltmarsh.md`.
-Output: scaletta in `dm-notes-sessione-NN.md`: contenuto, taratura, chiavi, segnali, materiale GoS,
-elementi da inventare.
+Input: `campagna/libro/atto-N.md`, `campagna/contesto.md`, ultima sessione,
+`campagna/stato-nave.md`, `campagna/party.md`, `progetto/`, `fonti/Ghosts of Saltmarsh.md`.
+Output: scaletta in `dm-notes-sessione-NN.md`: contenuto, taratura, chiavi, estratto del ramo dal
+libro con i testi da leggere marcati, segnali, elementi da inventare.
+
+Se l'atto non ha ancora il suo capitolo in `campagna/libro/`, fermati: va scritto prima.
 
 Se l'Agente 1 si ferma perché il contenuto non è deciso o una chiave 🔒 manca, riporta al DM e
 aspetta.
@@ -73,7 +75,7 @@ aspetta.
 Sub-agente su `ai/agents/02-session-writer.agent.md`.
 
 Input: scaletta dello Step 1.
-Output: dm-notes complete in italiano: fasi, testi da leggere (un riquadro solo per scena),
+Output: dm-notes complete: fasi, testi da leggere adattati dal libro (un riquadro solo per scena),
 battute da recitare, CD, nemici con nome e numero, elementi inventati segnati *(inv.)*.
 
 ### Step 3 — Integrazione dei personaggi · `opus`
